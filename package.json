@@ -12,6 +12,7 @@
   "dependencies": {
     "axios": "^0.18.0",
     "moment": "^2.23.0",
+    "moment-range": "^4.0.1",
     "nodemailer": "^4.7.0",
     "underscore": "^1.9.1"
   }
