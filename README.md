@@ -1,11 +1,11 @@
-# Holidays Lambda API
+# weekend-notifier
 ====
 
-Holidays API returns a list of classified Holidays in India. This is a Playground to dabble with AWS Lambda and API Gateway.
+Lambda function that identifies long weekends, potential long weekends and notifies subscribers via email ahead of time (either 120 days ahead or 30 days ahead) to help better plan for long weekends. 
 
-## Installation
+## Setup
 
-    npm install
+    Lambda is setup as a CRON (triggered once everyday), identifies weekends and notifies subscribers via email. 
 
 ## Deploy Function to Lambda
 
@@ -16,8 +16,3 @@ Configure AWS CLI and then run the following command:
 ## Test
 
 	npm test
-
-## API
-
-I've currently configured API Gateway on AWS Console.
-
